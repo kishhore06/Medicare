@@ -1,15 +1,27 @@
 package com.medicare.demo.security;
 
+<<<<<<< HEAD
 import com.medicare.demo.entity.User;
 import com.medicare.demo.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
+=======
+import java.util.Collections;
+
+>>>>>>> 7c0bd9592874ae36c59cd7708ea5990c74fd6e2f
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
+<<<<<<< HEAD
 import java.util.Collections;
+=======
+import com.medicare.demo.entity.User;
+import com.medicare.demo.repository.UserRepository;
+
+import lombok.RequiredArgsConstructor;
+>>>>>>> 7c0bd9592874ae36c59cd7708ea5990c74fd6e2f
 
 @Service
 @RequiredArgsConstructor

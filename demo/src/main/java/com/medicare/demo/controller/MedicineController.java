@@ -30,6 +30,10 @@ public class MedicineController {
         return ResponseEntity.ok(medicineService.getMedicineById(id));
     }
 
+<<<<<<< HEAD
+=======
+    // Admin endpoints handled in AdminController or secured via web security
+>>>>>>> 7c0bd9592874ae36c59cd7708ea5990c74fd6e2f
     @PostMapping("/admin")
     public ResponseEntity<Medicine> addMedicine(@RequestBody Medicine medicine) {
         return ResponseEntity.ok(medicineService.saveMedicine(medicine));
